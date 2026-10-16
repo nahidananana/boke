@@ -1,7 +1,7 @@
 ---
-title: 蔚蓝档案同人小说
+title: 小说
 published: 2026-10-16
-description: 这是一篇密码保护的示例文章，用于演示文章加密功能。
+description: 这是一篇....小说。
 tags: [小说]
 category: 18+小说
 password: "789113"
