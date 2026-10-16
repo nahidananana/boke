@@ -12,6 +12,7 @@ import MusicPlayerView from "@components/features/MusicPlayerView.astro";
 import SakuraEffect from "@components/features/SakuraEffect.astro";
 import WavesEffect from "@components/features/WavesEffect.astro";
 import ConfigCarrier from "@components/layout/ConfigCarrier.astro";
+import Analytics from "@vercel/analytics/astro";
 
 import {
 	analyticsConfig,
@@ -187,6 +188,7 @@ const ogImageAlt = propsOgImageAlt ?? pageTitle;
             screenRecord={analyticsConfig.la51Analytics?.screenRecord}
             />
     )}
+    <Analytics />
 
     <title>{pageTitle}</title>
     <meta
