@@ -3,6 +3,7 @@ import GoogleAnalytics from "@components/analytics/GoogleAnalytics.astro";
 import La51Analytics from "@components/analytics/La51Analytics.astro";
 import MicrosoftClarity from "@components/analytics/MicrosoftClarity.astro";
 import UmamiAnalytics from "@components/analytics/UmamiAnalytics.astro";
+import VercelAnalytics from "@components/analytics/VercelAnalytics.astro";
 import CodeGroupManager from "@components/features/CodeGroupManager.astro";
 import FancyboxManager from "@components/features/FancyboxManager.astro";
 import FontSetup from "@components/features/FontSetup.astro";
@@ -166,6 +167,9 @@ const ogImageAlt = propsOgImageAlt ?? pageTitle;
     )}
     {analyticsConfig?.microsoftClarityId && (
             <MicrosoftClarity clarityId={analyticsConfig.microsoftClarityId} />
+    )}
+    {analyticsConfig?.vercelAnalytics?.enabled && (
+            <VercelAnalytics enabled={analyticsConfig.vercelAnalytics.enabled} />
     )}
         {analyticsConfig?.umamiAnalytics?.websiteId && (
           <UmamiAnalytics
@@ -409,7 +413,7 @@ const ogImageAlt = propsOgImageAlt ?? pageTitle;
         : cardTransparentOpacity;
       document.documentElement.style.setProperty("--card-transparent-opacity", String(resolvedCardOpacity));
 
-      // 仅在允许切换时使用设置面板保存的运行时选择；否则配置值始终生效
+      // ��在允许切换时使用设置面板保存的运行时选择；否则配置值始终生效
       const storedFullscreenLayout = isFullscreenLayoutSwitchable
         ? localStorage.getItem("fullscreenLayout")
         : null;

@@ -1,0 +1,14 @@
+---
+interface Props {
+	enabled?: boolean;
+}
+
+const { enabled = true } = Astro.props;
+---
+
+{enabled && (
+	<script>
+		import { inject } from '@vercel/analytics';
+		inject();
+	</script>
+)}
