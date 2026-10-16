@@ -58,7 +58,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
                 name: "盛夏日记",
                 artist: "纳西妲",
                 url: "/assets/music/盛夏日记.flac",
-                cover: "/assets/music/cover/你的新歌封面文件名.webp",
+                cover: "/assets/music/cover/OIP.webp",
                 lrc: "", // 有歌词就填LRC文件路径或歌词字符串，没有就留空
             },
 		
