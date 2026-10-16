@@ -42,7 +42,7 @@ const pages = resolvePageToggles({
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "goodleaf's Blog",
+	title: "good boke",
 
 	// 站点副标题
 	subtitle: "一个清新美观且现代化的个人博客",
