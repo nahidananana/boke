@@ -3,7 +3,6 @@ title: 纳西妲生日会
 published: 2026-10-17
 pinned: true
 description: "纳西妲生日详情。"
-image: "./cover.avif"
 tags: [纳西妲,生日,]
 category: 纳西妲
 series: "纳西妲" 
