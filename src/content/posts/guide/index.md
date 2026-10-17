@@ -1,5 +1,5 @@
 ---
-title: Firefly 简单使用指南
+title: 纳西妲生日会
 published: 2026-10-17
 pinned: true
 description: "纳西妲生日详情。"
