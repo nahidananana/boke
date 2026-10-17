@@ -157,7 +157,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			specificConfig: {
 				calendar: {
 					// 是否显示年度文章热力图
-					showHeatmap: true,
+					showHeatmap: false,
 				},
 			},
 		},

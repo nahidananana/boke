@@ -23,14 +23,14 @@ export const friendsPageConfig: FriendsPageConfig = {
 // 友链配置
 export const friendsConfig: FriendLink[] = [
 	{
-		title: "夏夜流萤",
+		title: "旅叶知微",
 		imgurl:
-			"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
-		desc: "飞萤之火自无梦的长夜亮起，绽放在终竟的明天。",
-		siteurl: "https://blog.cuteleaf.cn",
-		tags: ["Blog"],
-		weight: 10, // 权重，数字越大排序越靠前
-		enabled: false, // 是否启用
+			"https://www.nahidafes.com/assets/images/main-pc.png",
+		desc: "官方纳西妲生日会网站，提供纳西妲生日会的相关信息和活动内容。",
+		siteurl: "https://www.nahidafes.com/",
+		tags: ["nana"],
+		weight: 1027, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用
 	},
 	{
 		title: "Firefly Docs",

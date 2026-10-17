@@ -15,7 +15,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	volume: 0.7,
 
 	// 播放模式：'list'=列表循环, 'one'=单曲循环, 'random'=随机播放
-	playMode: "list",
+	playMode: "one",
 
 	// 是否显启用歌词
 	showLyrics: false,
@@ -48,10 +48,10 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	local: {
 		playlist: [
 			{
-				name: "使一颗心免于哀伤",
-				artist: "知更鸟 / HOYO-MiX / Chevy",
-				url: "/assets/music/使一颗心免于哀伤-哼唱.mp3",
-				cover: "/assets/music/cover/109951169585655912.webp",
+				name: "夙愿 Longing Wish",
+				artist: "墨墨",
+				url: "/assets/music/夙愿 Longing Wish.wav",
+				cover: "/assets/music/cover/3.png",
 				lrc: "",
 			},
 		    {
