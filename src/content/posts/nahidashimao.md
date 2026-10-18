@@ -8,5 +8,4 @@ series: "视频"
 seriesOrder: 1
 ---
 
-<video src="/public\videos\nahida.mp4" controls preload="metadata" playsinline style="width: 100%; height: auto;"></video>
-public\videos\nahida.mp4
+<video src="images\nahida.mp4" controls preload="metadata" playsinline style="width: 100%; height: auto;"></video>
