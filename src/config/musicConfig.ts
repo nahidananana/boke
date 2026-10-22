@@ -62,10 +62,13 @@ export const musicPlayerConfig: MusicPlayerConfig = {
                 lrc: "", // 有歌词就填LRC文件路径或歌词字符串，没有就留空
             },
 		
-		
-		
-		
-		
+		 {
+                name: "后来我们的爱",
+                artist: "纳西妲",
+                url: "/assets/music/后来我们的爱.flac",
+                cover: "/assets/music/cover/OIP-C.webp",
+                lrc: "", // 有歌词就填LRC文件路径或歌词字符串，没有就留空
+            },
 		],
 	},
 };
