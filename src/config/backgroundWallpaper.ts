@@ -39,28 +39,25 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 桌面背景图片（支持单张或多张随机）
 		// desktop: "assets/images/DesktopWallpaper/d1.avif",
 		desktop: [
-			"assets/images/DesktopWallpaper/d1.avif",
-			"assets/images/DesktopWallpaper/d2.avif",
-			"assets/images/DesktopWallpaper/d3.avif",
-			"assets/images/DesktopWallpaper/d4.avif",
-			"assets/images/DesktopWallpaper/d5.avif",
-			"assets/images/DesktopWallpaper/d6.avif",
+			"https://85ddba89.cloudflare-imgb-ccu.pages.dev/file/pc壁纸/1792732684306_712f1883-38e5-46b3-b98f-8190b4994c84.webp",
+			"https://85ddba89.cloudflare-imgb-ccu.pages.dev/file/pc壁纸/1792732690764_b7822ab2-3b31-4908-8473-8bc3b0b6284f.webp",
+			"https://85ddba89.cloudflare-imgb-ccu.pages.dev/file/pc壁纸/1792732688341_33f1e0d1-bfd4-4efc-b881-94ca60bc3db3.webp",
+			"https://85ddba89.cloudflare-imgb-ccu.pages.dev/file/pc壁纸/1792732677641_2e685bde-6a0c-462b-8ec2-9ab0c4e3a2b0.webp",
 		],
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
 		mobile: [
-			"assets/images/MobileWallpaper/m1.avif",
-			"assets/images/MobileWallpaper/m2.avif",
-			"assets/images/MobileWallpaper/m3.avif",
-			"assets/images/MobileWallpaper/m4.avif",
-			"assets/images/MobileWallpaper/m5.avif",
-			"assets/images/MobileWallpaper/m6.avif",
+			"https://85ddba89.cloudflare-imgb-ccu.pages.dev/file/手机壁纸/1792732700442_15111fad-7de7-48c9-b22b-46494ee01c9c.webp",
+			"https://85ddba89.cloudflare-imgb-ccu.pages.dev/file/手机壁纸/1792732696210_e859b553-0f10-4de9-b507-60f957a08f4b.webp",
+			"https://85ddba89.cloudflare-imgb-ccu.pages.dev/file/手机壁纸/1792732687265_a9a8150b-3498-415b-a266-072d55d4b25b.webp",
+			"https://85ddba89.cloudflare-imgb-ccu.pages.dev/file/手机壁纸/1792732681418_7e0f4fee-c7e8-434b-88f3-7f8adf12bdd8.webp",
+
 		],
 		// 背景视频播放地址
 		// 支持单个视频路径（字符串）或多个视频循环（数组，参考上面壁纸配置）
 		// 支持远程视频URL，本地视频请放在 public/assets/videos/ 目录下
 		// playerUrl: "/assets/videos/firefly.mp4",
-		playerUrl: "https://bed.twoleaf.cn/file/1785658612716_firefly.mp4",
+		playerUrl: "https://85ddba89.cloudflare-imgb-ccu.pages.dev/file/1792732450199_video1.mp4",
 	},
 	// 横幅壁纸和全屏壁纸共享配置
 	common: {
