@@ -18,7 +18,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	playMode: "one",
 
 	// 是否显启用歌词
-	showLyrics: false,
+	showLyrics: true,
 
 	// Meting API 配置
 	meting: {
@@ -48,11 +48,11 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	local: {
 		playlist: [
 			{
-				name: "夙愿 Longing Wish",
-				artist: "墨墨",
-				url: "/assets/music/夙愿 Longing Wish.wav",
-				cover: "/assets/music/cover/3.png",
-				lrc: "",
+				name: "旅叶知微·大合唱版",
+				artist: "进栈检票",
+				url: "/assets/music/旅叶知微·大合唱版 - 进栈检票.flac",
+				cover: "/assets/music/cover/150876579_p0.png",
+				lrc: "/assets/music/旅叶知微·大合唱版 - 进栈检票.lrc", 
 			},
 		    {
                 name: "盛夏日记",
@@ -68,7 +68,19 @@ export const musicPlayerConfig: MusicPlayerConfig = {
                 url: "/assets/music/后来我们的爱.flac",
                 cover: "/assets/music/cover/OIP-C.webp",
                 lrc: "", // 有歌词就填LRC文件路径或歌词字符串，没有就留空
-            },
+		
+			},
+
+            {
+				name: "夙愿 Longing Wish",
+				artist: "墨墨",
+				url: "/assets/music/夙愿 Longing Wish.wav",
+				cover: "/assets/music/cover/3.png",
+				lrc: "",
+			},
+
+
+
 		],
 	},
 };
