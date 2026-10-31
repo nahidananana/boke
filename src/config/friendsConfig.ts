@@ -34,7 +34,7 @@ export const friendsConfig: FriendLink[] = [
 	},
 	{
 		title: "星光的图库",
-		imgurl: "https://cloudflare-imgb-ccu.pages.dev/file/1792750646735_1792750587993.webp",
+		imgurl: "https://1027.ccwu.cc/file/nana/1792750646735_1792750587993.webp",
 		desc: "一个照片仓库",
 		siteurl: "无",
 		tags: ["pictor"],
