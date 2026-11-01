@@ -36,7 +36,7 @@ export const friendsConfig: FriendLink[] = [
 		title: "星光的图库",
 		imgurl: "https://1027.ccwu.cc/file/nana/1792750646735_1792750587993.webp",
 		desc: "一个照片仓库",
-		siteurl: "无",
+		siteurl: "https://1027.ccwu.cc",
 		tags: ["pictor"],
 		weight: 9,
 		enabled: true,
@@ -49,6 +49,15 @@ export const friendsConfig: FriendLink[] = [
 		tags: ["Framework"],
 		weight: 8,
 		enabled: false,
+	},
+	{
+		title: "GitHub",
+		imgurl: "https://github.com/CuteLeaf.png",
+		desc: "我的 GitHub 主页，分享项目与代码。",
+		siteurl: "https://github.com/nahidananana",
+		tags: ["GitHub"],
+		weight: 7,
+		enabled: true,
 	},
 ];
 
